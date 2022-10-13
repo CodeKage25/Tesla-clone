@@ -1,10 +1,15 @@
 import React from "react";
-import logo from "../assets/tesla.svg";
+import Home from "./components/Home";
+import './App.css';
+
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Project Begins here!
-    </h1>
-  )
+    <>
+      <div>
+        <Home />
+      </div>
+
+    </>
+  );
 }
