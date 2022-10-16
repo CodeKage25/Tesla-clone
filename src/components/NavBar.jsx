@@ -6,43 +6,43 @@ const NavBar = () => {
     return (
         <div>
             
-            <nav className='flex md:grow-0 space-x-20'>
-                <div className="flex">
+            <nav className='flex m-3 max-w-full space-x-24'>
+                <div className="justify-start">
                     <Logo />
                 </div>
-                <div className='flex space-x-20'>
-                    <ul className='flex'>
-                        <li>
+                <div>
+                    <ul className='flex grow-1 mt-4 ml-20 mr-10 text-center'>
+                        <li className='p-1 pl-6'>
                             Model S
                         </li>
-                        <li>
+                        <li className='p-1 pl-6'>
                             Model 3
                         </li>
-                        <li>
+                        <li className='p-1 pl-6'>
                             Model X
                         </li>
-                        <li>
+                        <li className='p-1 pl-6'>
                             Model Y
                         </li>
-                        <li>
+                        <li className='p-1 pl-6'>
                             Solar Roof
                         </li>
-                        <li>
+                        <li className='p-1 pl-6'>
                             Solar Panels
                         </li>
                     </ul>
                 </div>
 
-                <div className='flex flex-end'>
-                    <ul className='flex'>
-                        <li>
+                <div>
+                    <ul className='flex mt-4 ml-20'>
+                        <li className='p-1 pl-8' >
                             Shop
                         </li>
 
-                        <li>
+                        <li className='p-1 pl-8'>
                             Account
                         </li>
-                        <li>
+                        <li className='p-1 pl-8'>
                             Menu
                         </li>
                     </ul>
